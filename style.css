@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Gabarito' ,sans-sarif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 1px solid;
+    align-items: center;
+}
+
+.navbar__p1{
+    color: #AF4EF2;
+}
+
+.navbar__p2{
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar__p2 input{
+    border: none;
+    width: 100%;
+}
+
+.navbar__p2 input:focus{
+    outline: none;
+}
+
+.navbar__p3{
+    display: flex;
+    gap: 10px;
+}
+
+.catergories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.catergories p{
+    background-color: #A435F0;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.recommeneded{
+    padding: 10px;
+}
+
+.recommeneded__container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    width: 300px;
+}
+
+.course-card img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.topics{
+    padding: 10px;  
+}
+
+.topics__container{
+    padding: 10px;
+    margin: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around; 
+    flex: basis 25%;;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    border: 1px solid black;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+
+.footer__one p{
+    margin: 10px;
+
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
